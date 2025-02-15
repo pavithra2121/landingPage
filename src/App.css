@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffbee;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero-section {
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px 20px;
+  background-color: #fef5e7;
+  border-radius: 10px;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  color: #d48806;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+.hero-section img {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Product Info */
+.product-info {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.product-info h2 {
+  font-size: 2rem;
+  color: #d48806;
+}
+
+.product-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-info li {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  color: #333;
+}
+
+.product-info img {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Order Form */
+.order-form {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+  background: #fff3cd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.order-form h2 {
+  font-size: 1.8rem;
+  color: #d48806;
+}
+
+.order-form label {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.order-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.order-form button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.order-form button:hover {
+  background-color: #e6b800;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .product-info h2 {
+    font-size: 1.5rem;
+  }
+
+  .product-info li {
+    font-size: 1rem;
+  }
+
+  .order-form h2 {
+    font-size: 1.5rem;
+  }
+
+  .order-form label {
+    font-size: 1rem;
+  }
+
+  .order-form input,
+  .order-form button {
+    font-size: 1rem;
+  }
+}
